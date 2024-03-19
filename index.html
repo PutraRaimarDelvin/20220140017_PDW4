@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Tiger Zoo</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  body {
+    background-color: orange;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>Assalamualaikum wr.wb!</h1>
+    <h2>Tell About Tiger Zoo</h2>
+  </div>
+  <div class="content">
+    <img src="harimau.jpg" alt="Business Meeting" class="harimau">
+    <p class="txt-waktu" id="hasil"></p>
+    <div class="agenda">
+      <h2>Agenda:</h2>
+      <ul>
+        <li>tiger rearing</li>
+        <li>update on tiger life</li>
+        <li>register and check the tiger list</li>
+      </ul>
+    </div>
+    <button onclick="show()">Start Meeting</button>
+  </div>
+</div>
+<script>
+  // JavaScript code to display the current date and time
+  let tanggal = new Date();
+  document.getElementById("hasil").innerHTML = tanggal;
+</script>
+<script src="main.js"></script>
+</body>
+</html>
