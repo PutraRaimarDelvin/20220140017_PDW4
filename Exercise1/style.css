@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('bendera3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  #presidentsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .presidentCard {
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(142, 141, 141, 0.1);
+    background-color: rgba(165, 165, 165, 0.971); /*Tambahkan opasitas putih untuk membedakan dari latar belakang*/
+  }
+  
+  .presidentCard img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .sliderButton {
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    background-color: #000000b7;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .presidentNumber {
+    font-weight: bold; 
+    margin-bottom: 5px;
+  }
+  
+  .presidentPeriod {
+    font-style: bold;
+    color: #000000;
+    font-weight: bold; /* Teks tahun periode menjadi tebal (bold) */
+  }
+  
+  .presidentProfile {
+    margin-top: 10px;
+    text-align: left;
+  }
